@@ -1,4 +1,13 @@
 {
+	"name": "simple-rest-api-integration-system",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Simple REST API server with Express",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "node server.js"
+	},
 	"dependencies": {
 		"express": "^5.2.1"
 	}
